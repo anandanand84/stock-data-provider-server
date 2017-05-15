@@ -1,0 +1,31 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true, 
+    "experimentalDecorators": true,
+    "lib": [
+      "es5",
+      "es2015.iterable",
+      "es2015.collection",
+      "es2015.promise",
+      "es2017",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir":"build/",
+    "noImplicitAny": false,
+    "declaration": true,
+    "typeRoots" : ["typings", "node_modules/**/@types"]
+  },
+  "exclude": [
+      "build",
+      "node_modules",
+      "bower_components",
+      "dist",
+      ".vscode",
+      "docs"
+  ]
+}

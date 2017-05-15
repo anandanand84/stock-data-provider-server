@@ -1,0 +1,1 @@
+GET https://localhost:30443/info?q=NSE:ICICIBANK

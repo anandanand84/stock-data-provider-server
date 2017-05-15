@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: stock-data-provider-service
+  labels:
+    app: stock-data-provider-service
+spec:
+  ports:
+    - name: https
+      port: 30443
+      targetPort: 30443
+      nodePort : 30443
+  selector:
+    app: stock-data-provider
+  type : NodePort
